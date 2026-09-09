@@ -10,7 +10,7 @@
 
 This project treats real Facebook ad campaign data as an A/B/n comparison across age-group targeting, asking: **does targeting a younger audience (30-39) produce a different click-through rate than targeting an older audience (40-49), and which group is actually more cost-efficient?**
 
-This complements my Recommendation Ranking A/B Test project, which uses simulated data to demonstrate the statistical methodology cleanly. This project instead uses real recorded data — with unequal group sizes, no controlled randomization, and outlier ads with very high impression counts — to show the same methodology applied to messier, real-world conditions
+This complements my Recommendation Ranking A/B Test project, which uses simulated data to demonstrate the statistical methodology cleanly. This project instead uses real recorded data  with unequal group sizes, no controlled randomization, and outlier ads with very high impression counts  to show the same methodology applied to messier, real-world conditions
 
 **Business Questions:**
 - Is there a statistically significant CTR difference between age groups?
