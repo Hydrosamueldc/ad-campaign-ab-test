@@ -43,7 +43,7 @@ Unlike a simulated experiment, this is real recorded data — with unequal group
 - **95% CI on the difference:** [-0.00006, -0.00005] — a precise, consistently negative interval.
 - The older group has a **higher CTR**, but the younger group converts **more than twice as efficiently** per dollar spent.
 
-![Age group A/B test results](figures/age_group_ab_test.png)
+![Age group A/B test results](age_group_ab_test.png)
 
 ---
 
