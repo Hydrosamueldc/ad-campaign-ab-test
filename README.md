@@ -49,13 +49,13 @@ This complements my Recommendation Ranking A/B Test project, which uses simulate
 
 ## Key Insight
 
-This is a case where statistical significance alone would point the wrong way. If you only looked at CTR, you'd shift budget toward the older age group. But CTR measures clicks, not outcomes — and the younger group's cost-per-conversion is less than half the older group's. **A click isn't a conversion**, and this dataset shows exactly why that distinction matters before making a budget decision.
+This is a case where statistical significance alone would point the wrong way. If you only looked at CTR, you'd shift budget toward the older age group. But CTR measures clicks, not outcomes  and the younger group's cost-per-conversion is less than half the older group's. **A click isn't a conversion**, and this dataset shows exactly why that distinction matters before making a budget decision.
 
 ---
 
 ## Recommendation
 
-Don't reallocate budget on CTR alone. The younger group is the more cost-efficient segment for driving actual conversions, despite its lower CTR — worth prioritizing it for spend, while separately investigating why older-audience clicks convert at a much lower rate (landing page mismatch, offer relevance, or funnel drop-off are the usual suspects).
+Don't reallocate budget on CTR alone. The younger group is the more cost-efficient segment for driving actual conversions, despite its lower CTR  worth prioritizing it for spend, while separately investigating why older-audience clicks convert at a much lower rate (landing page mismatch, offer relevance, or funnel drop-off are the usual suspects).
 
 **Caveat:** this is observational campaign data, not a randomized controlled experiment — age groups weren't randomly assigned under identical conditions, so this shows association, not proof that age *causes* the difference. A real randomized test would be needed before treating this as causal.
 
@@ -79,7 +79,7 @@ jupyter notebook ad_campaign_ab_test.ipynb
 
 ## Business Relevance
 
-This mirrors real media-buying and growth analytics work: testing whether an audience or creative change actually moves a metric, checking significance rather than eyeballing it, and — critically — checking whether the metric that moved is the one that actually matters for the business. The same framework applies directly to testing recommendation or ranking changes on a content platform, where click-through rate and downstream engagement can move in different directions.
+This mirrors real media-buying and growth analytics work: testing whether an audience or creative change actually moves a metric, checking significance rather than eyeballing it, and  critically checking whether the metric that moved is the one that actually matters for the business. The same framework applies directly to testing recommendation or ranking changes on a content platform, where click-through rate and downstream engagement can move in different directions.
 
 ---
 *Samuel Adegboyega | [LinkedIn](https://linkedin.com/in/adegboyega-samuel-1a302b203)*
